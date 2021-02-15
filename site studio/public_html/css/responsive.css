@@ -1,0 +1,147 @@
+/*Comentario*/
+
+/*O titulo
+para que serve
+O autor
+quando foi feito
+etc*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	color: #000305; 
+	font-family: 'Trebuchet MS', 'Trebuchet', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial, sans-serif';
+	line-height: 1.429;
+	text-align: left;
+}
+
+.corpo{
+	margin: 0 auto;
+	width: 100%;
+	clear:both;
+}
+
+/*Cabeçalho*/
+
+.cabecalho{
+	overflow: hidden;
+}
+
+.cabecalho .logotipo img{
+	width: 14%;
+	height: auto;
+	margin: 1%;
+	float: left;
+}
+
+.cabecalho_centro{
+	width: 60%;
+	float: left;
+	margin-top:6%;
+}
+
+.cabecalho_centro h1{
+	text-align: center;
+	font-family: Times, "Times New Roman", Georgia, serif;
+	color: blue;
+	text-shadow: black 2px 3px 3px;
+	padding-left: 32px;
+}
+
+.redes_sociais{
+    width: 20%;
+    color: #black;
+    height: auto;
+    padding-top: 20px;
+    float: right;
+	text-align: center;
+}
+
+.cabecalho h2{
+	font-family: Arial, Helvetica, sans-serif; 
+	
+}
+
+.cabecalho img{
+	width: 30px;
+	height: auto;
+}
+
+/*Fim cabecalho*/
+
+.menu{
+	background: #666;
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 30px auto;
+	text-align:center;
+	border-radius: 5px; 
+	-moz-border-radius: 5px;  /*Mozzila*/
+	-webkit-border-radius: 5px; /*Chrome*/
+}
+
+.menu ul{
+	list-style: none;
+	margin: 0 auto;
+}
+
+.menu li{
+    float: none;
+    display: inline;	
+}
+
+.menu a{
+    color: #fff; 
+    display: inline-block;
+    height: 30px;
+    text-decoration: none;
+    padding: 5px 25px 5px 25px;
+    font-weight: bold;
+}
+
+.menu a:hover
+{
+	color: #000;
+	background-color: #8470FF;
+}
+
+@media only screen and (min-width : 150px) and (max-width : 780px)
+{
+	.body{
+		clear:both;
+		margin: 0 auto;
+		width: 90%;
+		font-size: 90%;
+	}
+}
+
+.banner {
+	width:960px;
+	height: 350px;
+	margin: 0 auto;
+	animation: slide 10s infinite;
+	animation-direction: alternate;
+	background-repeat: no-repeat;
+}
+
+@keyframes slide {
+	0%, 30% {
+		background-image: url(../img/f1.jpg);
+	}
+	
+	40%, 60% {
+		background-image: url(../img/f2.jpg);
+	}
+	
+	65%, 80% {
+		background-image: url(../img/f3.jpg);
+	}
+	
+	85%, 100% {
+		background-image: url(../img/f4.jpg);
+	}
+}	

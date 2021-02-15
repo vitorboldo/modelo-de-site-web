@@ -1,0 +1,33 @@
+/*pacote
+cabecalho
+sub_cabecalho
+logotipo
+menu_principal
+sessao_principal
+conteudo_meio
+professores
+rodape
+*/
+body {
+	margin: 0 auto;
+	padding: 0;
+	
+}
+#pacote {
+	Width: 100%;
+	height: auto;
+}
+#logotipo img {
+	width: 15%;
+	height: 8%;
+	float: left;
+}
+sub_cabecalho {
+	font-family: 'Segoe UI Symbol', 'Arial', 'Lucida Sans', 'Tahoma';
+	text-align: right;
+}
+#sub_cabecalho img {
+	width: 5%;
+	height: 0%;
+	float: right;
+}
